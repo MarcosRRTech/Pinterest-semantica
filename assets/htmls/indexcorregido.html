@@ -1,0 +1,51 @@
+<!DOCTYPE html> Especificar la version de html(HTML5)
+<html lang="es"> Etiqueta <html> con atributo lang para definir el idioma principal del documento como español.
+<head>Sección de encabezado que contiene metadatos, enlaces a hojas de estilo y otros recursos.
+    <meta charset="UTF-8">Especifica la codificación de caracteres UTF-8 para admitir caracteres especiales en el idioma.
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> Configura la escala inicial y la anchura del dispositivo para la visualización en dispositivos móviles.
+    <meta name="description" content="Descripción de Pinterest..."> Proporciona una descripción breve del sitio para fines de SEO.
+    <meta name="keywords" content="pinterest, imágenes, compartir, tableros"> Define palabras clave relevantes para el sitio web.
+    <title>Pinterest</title>
+    <link rel="stylesheet" href="styles.css"> Enlaza una hoja de estilos externa (CSS) para dar formato al contenido.
+    <link rel="canonical" href="https://pinterest.es/"> Especifica la URL canónica del documento para evitar contenido duplicado en motores de búsqueda.
+</head>
+<body> El cuerpo del documento HTML.
+    <header> La sección de encabezado del sitio web.
+        <nav> Define la navegación principal del sitio.
+            <a href="/" class="logo">Pinterest</a> Enlace que sirve como logotipo del sitio.
+            <ul> Elementos de lista que son enlaces a diferentes secciones del sitio.
+                <li><a href="/explorar">Explorar</a></li>
+                <li><a href="/mis-tableros">Mis Tableros</a></li>
+                <li><a href="/subir-imagen">Subir Imagen</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> La sección principal del contenido.
+        <section id="destacados">  Una sección del sitio que contiene imágenes destacadas.
+            <h1>Imágenes Destacadas</h1> Un encabezado que describe el contenido de la sección.
+            <article> Define un artículo individual dentro de la sección.
+                <a href="/imagen/123"> nlace a una página de detalle de imagen.
+                    <img src="imagen1.jpg" alt="Descripción breve de la imagen" loading="lazy"> Imagen con un atributo alt descriptivo para la accesibilidad.
+                    <h2>Título de la imagen</h2> Título de la imagen.
+                </a>
+                <p>Descripción de la imagen. Esta descripción ayuda al SEO y a la accesibilidad.</p>
+            </article>
+            <!-- Repite el bloque <article> para más imágenes -->
+        </section>
+        <section id="categorias">
+            <h1>Categorías Populares</h1>
+            <ul>
+                <li><a href="/categoria/viajes">Viajes</a></li>
+                <li><a href="/categoria/comida">Comida</a></li>
+                <!-- Más categorías -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Pinterest. Todos los derechos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
