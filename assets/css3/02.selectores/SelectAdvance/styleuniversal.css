@@ -1,6 +1,0 @@
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
- }
- /*El selector universal es muy utilizado para resetear los estilos por defecto de todas las etiquetas, ya que muchas de ellas tienen un box-sizing, padding o margin predeterminados.*/
