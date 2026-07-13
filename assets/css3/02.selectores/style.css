@@ -1,0 +1,39 @@
+#hello{
+    color: coral;
+    width: 30px;
+    font-size: 50px;
+}
+.other{
+    color:yellowgreen;
+    font-size: 25px;
+}
+.divider{
+    background-color: cornflowerblue;
+}
+.red, .coral{
+    color:coral;
+}
+/*red, .coral{
+    color:coral;
+}
+    es lo mismo que hacerlo por separado cuando queramos una class igual que la otra se puede hacer es ta manera tambien*/
+
+footer p{
+    color: brown;
+}
+.container > h2{
+    color: lawngreen;
+}
+
+div > h2{
+    color: blue;
+}
+li:first-child{
+    color:pink
+}
+li:last-child{
+    color: violet;
+}
+a[href="hola.com"] {
+    color: palevioletred;
+}

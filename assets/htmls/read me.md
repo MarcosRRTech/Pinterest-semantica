@@ -2,7 +2,7 @@ Consideraciones:
 
 - Etiquetas semánticas: Se utilizan etiquetas como <header>, <nav>, <main>, <section>, <article>, y <footer> para dar estructura y significado al contenido.
 
-- Meta etiquetas: Las etiquetas <meta> en el <head> ayudan a definir la descripción, palabras clave y otros aspectos importantes para el SEO.
+- meta etiquetas: Las etiquetas <meta> en el <head> ayudan a definir la descripción, palabras clave y otros aspectos importantes para el SEO.
 
 - Canonical URL: La etiqueta <link rel="canonical"> ayuda a evitar contenido duplicado.
 
